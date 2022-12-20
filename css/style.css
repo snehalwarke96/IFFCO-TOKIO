@@ -1,0 +1,549 @@
+/* reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ body{
+    font-family: 'Raleway', sans-serif;
+ }
+
+
+ /* header */
+ header{
+    width: 100%;
+}
+
+.logo{
+    width: 140px;
+    height: 80px;
+    margin: 20px 0; 
+  
+}
+/* home */
+
+#home{
+    width: 100%;
+    background:  url(../images/bg1.svg);
+    background-position: center;
+    background-repeat: repeat-x;  
+    /* height: 768px; */
+    height: 650px;
+    /* background-color: #F17B3B; */
+}
+
+.container{
+    max-width: 1103px;
+    margin:0 auto;
+    /* border: 2px solid; */
+    /* background-color: white; */
+}
+
+.home-relative{
+    /* height: 768px; */
+    height: 650px;
+    position: relative;   
+}
+
+
+.buildings{
+   
+    opacity: 0.7;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.home-flex{
+display: flex;
+height: 100%;
+}
+
+.home-flex-left{
+    flex-basis: 60%;
+    /* background-color: aqua; */
+}
+
+.balloon{
+    width: 112px;
+    height: 157.8px;
+   margin: 2px;
+   
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 46px;
+    color: #F17B3B;
+    margin-top: 77px;
+}
+
+.heading span, .form-heading span{
+    display: block;
+    margin-left: 10px;
+}
+
+.car{
+   width: 597px; 
+   height: 224px;
+   position: absolute;
+bottom: 0;
+z-index: -1;
+}
+
+.pol-form{
+   width: 450px; 
+   height: 610px;
+   margin-top: 20px;
+   /* position: absolute;
+   top: 119px;
+   left: 803px; */
+   background-color: white;
+   box-shadow: 0px 9px 40px #00000031;
+   border-radius: 10px;
+   /* background-color: #81A7A7; */
+}
+
+.form-heading{
+    display: block;
+    text-align:center;
+    font-size: 24px;
+    color: #F17B3B;
+    padding: 16px 0 8px 0;
+    /* background-color: aqua; */
+    /* width: 366px; */
+}
+
+.form-input input,.form-input select{
+    width: 100%;
+    font-size: 17px;
+    padding: 16px 10px;
+    height: 52px;
+    border: 1px solid #81A7A7;
+    /* border: none; */
+    background: #FFFFFF ;
+    cursor: pointer;
+    
+    /* background-color: aqua; */
+}
+
+.form-input select{
+    width: 95%;
+    height: 50px;
+    border: none;
+}
+
+.ip-select{
+    width: 100%;
+    height: 52px;
+    border: 1px solid #81A7A7;
+}
+
+
+
+
+.form-input select{
+   color: #1617179e;
+}
+
+.form-input label{
+    display: inline-block;
+    font-size: 11px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.form-input{
+    margin-bottom: 23px;
+ 
+}
+
+.form-group{
+   max-width: 85%;
+   margin: auto;
+}
+
+/* checkbox */
+/* Customize the label (the container) */
+
+.check-loop{
+    padding-left: 6px;
+}
+.check-ip {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .check-ip input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 13px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .check-ip:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .check-ip input:checked ~ .checkmark {
+    background-color:#F17B3B;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .check-ip input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .check-ip .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 2px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+/* .check-ip{
+    font-size: 11px;
+    padding: 10px 0;
+    text-align: justify;
+    display: flex;
+}
+
+input[type="checkbox"]{
+    accent-color: #F17B3B;
+    color: white;
+    border: none;
+} */
+
+.btn button{
+    width: 157px;
+    height: 43px;
+    background-color: #F17B3B;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;  
+}
+
+.btn{
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+/* key benifits */
+.key-heading{
+    font-size: 40px;
+    color: #1AB164;
+    margin: 50px 0 36px 0;
+    text-align: center;
+
+}
+.slide{
+    margin: 0 auto 40px;
+
+}
+
+/* .item{
+    background-color: #1AB164;
+} */
+
+.item img{
+    /* display: block; */
+  margin: auto;
+    width: 70px;
+}
+
+.item h3{
+    font-size: 11px;
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.item h3 span{
+    font-size: 10px;
+    display: block;
+
+    /* text-align: center; */
+}
+
+
+/* customer testimonials */
+
+.testimonials{
+    background: url(../images/testimonal-main-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+}
+
+.test-heading{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 40px;
+  
+    
+}
+
+
+.test-slide {
+   width: 100%; 
+   /* background-color: #1AB164; */
+}
+
+.test-img{
+    background: url(../images/testi-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #F17B3B; */
+    width: 340px;
+    height:184px ;
+    /* margin: 2px; */
+    /* display: flex; */
+    
+    position: relative;
+    /* background-color: aqua; */
+}
+
+
+
+.user{
+    /* background-color: aqua; */
+    /* display: inline-block; */
+    /* width: 200px; */
+    position: absolute;
+    /* z-index: 1; */
+    left: 17px;
+    bottom: 0px;
+}
+
+.test-right{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    padding: 5px;
+}
+.test-right p{
+    font-size: 12px;
+    padding: 2px 1px;
+    /* margin: ; */
+}
+.test-right h3{
+    font-size: 17px;
+    color: #733A7E;
+    padding: 3px;
+}
+
+
+/* extra info */
+
+.info{
+    width: 80%;
+    margin:71px auto;
+    font-size: 14px;
+}
+
+.info-p{
+    padding: 20px 0;
+    /* background-color: #1AB164; */
+}
+.info p{
+    margin-top: 3px;
+    color: #707070;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #1DB0EA;
+}
+
+.footer-cont{
+    text-align: center;
+ font-size: 18px;
+ color: white;
+    padding: 15px;
+}
+
+
+.slick-dots li button:before{
+    font-size: 60px;
+}
+
+.slick-dots{
+    color: black;
+    bottom: -60px;
+}
+
+
+/* .slick-prev:before */
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    color: black;
+    color: transparent;
+    opacity: 1;
+}
+
+.slick-prev:before {
+    content: '←';
+    background: url(../images/left-arrow.svg);
+    width: 29px;
+    height: 29px;
+    background-size: contain;
+    /* background-color: #1AB164; */
+}
+
+.slick-next:before {
+    content: '→';
+    background: url(../images/right-arraow.svg);
+    width: 29px;
+    height: 29px;
+    background-size: contain;
+}
+
+
+.mob-heading{
+    background-color: #F17B3B;
+    display: none;
+}
+
+.mob-car{
+    display: none;
+}
+
+@media only screen and (max-width:900px) {
+
+    
+     #home{
+        /* height: 994px;  */
+      
+        width: 100%;
+        /* background:  url(../images/bg1.svg);
+        background-position: center; */
+        background-repeat: no-repeat;  
+       height: 994px; 
+       background-size: cover;
+        /* height: 650px; */
+    }
+    .home-relative{
+
+        height: 994px;
+        bottom: 0;
+   
+    } 
+    .home-flex{
+        height: 712px ;
+        bottom: 0;    
+    }
+    .home-flex-right{
+ 
+        margin: auto;
+    }
+    .home-flex-left{
+        display: none;
+    }
+
+    .slide{
+        width: 80%;
+        margin: 0 auto 50px;
+        
+    }
+    .test-slide{
+        width: 70%;
+        margin: auto;
+    }
+
+    .logo{
+       display: block;
+        margin: 20px auto; 
+    }
+
+    .mob-heading{
+        background-color: #F17B3B;
+        display: block;
+        color: white;
+        max-width: 450px;
+        /* height: 70px; */
+        margin-bottom: -20px;
+        border-radius: 10px 10px 0px 0px;
+       
+    }
+    .mob-heading h1{
+        text-align: center;
+        padding: 10px;
+       
+    }
+
+    .pol-form{
+        max-width:450px;
+      
+       
+    }
+
+    .mob-car{
+        display: block;
+   
+
+    }
+    .mob-car img{
+     
+        width: 295px;
+        height: 110px;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+   
+
+    }
+
+    .footer-cont{
+        font-size: 14px;
+    }
+  
+    
+}
+
+
