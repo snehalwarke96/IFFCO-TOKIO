@@ -491,10 +491,7 @@ footer{
         margin: 0 auto 50px;
         
     }
-    .test-slide{
-        width: 70%;
-        margin: auto;
-    }
+   
 
     .logo{
        display: block;
@@ -545,5 +542,35 @@ footer{
   
     
 }
+
+@media only screen and (max-width:460px) {
+    .pol-form,.mob-heading{
+    width: 350px;
+    margin:0 5px;
+    }
+
+    .chk-width{
+        width: 100%;
+        margin: auto;
+    }
+    .slick-dots{
+        color: black;
+        bottom: -20px;
+    }
+    .form-heading{
+        font-size: 20px;
+    }
+    .slide{
+        width: 70%;  
+    }
+    .footer-cont{
+        font-size: 12px;
+    }
+    }
+    
+
+   
+
+
 
 
