@@ -430,6 +430,7 @@ footer{
 .slick-prev:before {
     content: '←';
     background: url(../images/left-arrow.svg);
+    background-repeat: no-repeat;
     width: 29px;
     height: 29px;
     background-size: contain;
@@ -442,6 +443,7 @@ footer{
     width: 29px;
     height: 29px;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
